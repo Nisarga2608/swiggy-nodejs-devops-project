@@ -45,7 +45,7 @@ pipeline {
         
         stage('container') {
             steps {
-                sh "docker run -itd --name harshu3 -p 3004:3000 ${DOCKER_IMAGE}" 
+                sh "docker run -itd --name harshu5 -p 3004:3000 ${DOCKER_IMAGE}" 
             }
         }
     }
